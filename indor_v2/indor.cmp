@@ -1,0 +1,129 @@
+Cmp-Mod V01 Genere par PcbNew le 28/02/2023 17:56:30
+
+BeginCmp
+TimeStamp = /63F13356;
+Reference = D1;
+ValeurCmp = 1N4001;
+IdModule  = D3;
+EndCmp
+
+BeginCmp
+TimeStamp = /63F139CB;
+Reference = K1;
+ValeurCmp = Rele0;
+IdModule  = PIN_ARRAY_3X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /63F13DCC;
+Reference = K2;
+ValeurCmp = Rele1;
+IdModule  = PIN_ARRAY_3X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /63F13FE9;
+Reference = K3;
+ValeurCmp = DHT11;
+IdModule  = PIN_ARRAY_3X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /63F1372E;
+Reference = P1;
+ValeurCmp = Vin;
+IdModule  = bornier2;
+EndCmp
+
+BeginCmp
+TimeStamp = /63F26E2A;
+Reference = P2;
+ValeurCmp = Display;
+IdModule  = SIL-18;
+EndCmp
+
+BeginCmp
+TimeStamp = /63F1428B;
+Reference = P3;
+ValeurCmp = RTC;
+IdModule  = PIN_ARRAY_4x1;
+EndCmp
+
+BeginCmp
+TimeStamp = /63F50E9D;
+Reference = P4;
+ValeurCmp = Power;
+IdModule  = SIL-8;
+EndCmp
+
+BeginCmp
+TimeStamp = /63F50EA3;
+Reference = P5;
+ValeurCmp = analogicos;
+IdModule  = SIL-6;
+EndCmp
+
+BeginCmp
+TimeStamp = /63F50EE6;
+Reference = P6;
+ValeurCmp = D0/7;
+IdModule  = SIL-8;
+EndCmp
+
+BeginCmp
+TimeStamp = /63F50EEC;
+Reference = P7;
+ValeurCmp = D8/13;
+IdModule  = SIL-8;
+EndCmp
+
+BeginCmp
+TimeStamp = /63F261BC;
+Reference = R2;
+ValeurCmp = 1K;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /63F261C6;
+Reference = R3;
+ValeurCmp = 220;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /63F261CC;
+Reference = R4;
+ValeurCmp = 100;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /63F1405E;
+Reference = R5;
+ValeurCmp = R;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /63F26197;
+Reference = SW1;
+ValeurCmp = SW_PUSH;
+IdModule  = SW_PUSH;
+EndCmp
+
+BeginCmp
+TimeStamp = /63F261A3;
+Reference = SW2;
+ValeurCmp = SW_PUSH;
+IdModule  = SW_PUSH-12mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /63F261A7;
+Reference = SW3;
+ValeurCmp = SW_PUSH;
+IdModule  = SW_PUSH-12mm;
+EndCmp
+
+EndListe

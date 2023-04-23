@@ -1,0 +1,146 @@
+# EESchema Netlist Version 1.1 created  18/04/2023 22:00:24
+(
+ ( /643C4705 C1 0.1uF1 C
+  ( 1 +5V )
+  ( 2 GND )
+ )
+ ( /643C46FE C1 0.33uF1 C
+  ( 1 N-000007 )
+  ( 2 GND )
+ )
+ ( /643C3F7D R3 1k1 R
+  ( 1 N-000001 )
+  ( 2 GND )
+ )
+ ( /643C3FA5 D3 1N4007 DIODE
+  ( 1 N-000015 )
+  ( 2 +5V )
+ )
+ ( /643C3F68 LM2931 2N3904 NPN
+  ( 1 GND )
+  ( 2 N-000014 )
+  ( 3 N-000015 )
+ )
+ ( /643C3F77 R3 10k1 R
+  ( 1 N-000014 )
+  ( 2 /out_0 )
+ )
+ ( /643C3D7C C1 C1 1uF
+  ( 1 /in_0 )
+  ( 2 GND )
+ )
+ ( /643C3B52 LED-3MM D1 LED
+  ( 1 /in_0 )
+  ( 2 N-000011 )
+ )
+ ( /643C3F86 LED-3MM D2 LED
+  ( 1 /out_0 )
+  ( 2 N-000001 )
+ )
+ ( /643C43D0 KSA K1 ADW11
+  ( 1 +5V )
+  ( 3 ? )
+  ( 5 ? )
+  ( 6 N-000015 )
+ )
+ ( /643C3A97 R3 R1 1k
+  ( 1 N-000010 )
+  ( 2 ? )
+ )
+ ( /643C3B5D R3 R2 1k
+  ( 1 N-000011 )
+  ( 2 GND )
+ )
+ ( /643C3B22 SW_PUSH_SMALL SW1 SW_PUSH
+  ( 1 +5V )
+  ( 2 /in_0 )
+ )
+ ( /643C3A60 DIP-6__300_ELL U1 OPTO-TRANSISTOR
+  ( 1 N-000010 )
+  ( 2 GND )
+  ( 3 ? )
+  ( 4 /in_0 )
+  ( 5 +5V )
+  ( 6 ? )
+ )
+ ( /643C466C LM78XX U2 LM7805
+  ( GND GND )
+  ( VI N-000007 )
+  ( VO +5V )
+ )
+ ( /643C4782 bornier2 Vin1 CONN_2
+  ( 1 GND )
+  ( 2 N-000007 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component 0.1uF1
+ SM*
+ C?
+ C1-1
+$endlist
+$component 0.33uF1
+ SM*
+ C?
+ C1-1
+$endlist
+$component 1k1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component 1N4007
+ D?
+ S*
+$endlist
+$component 10k1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C1
+ CP*
+ SM*
+$endlist
+$component D1
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D2
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component K1
+ Relay*1P1T*NO*Panasonic*ADW11xxxxW*
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$endfootprintlist
+}

@@ -1,0 +1,126 @@
+# EESchema Netlist Version 1.1 created  16/04/2020 16:31:34
+(
+ ( /5E8F7698 C2V8 C1 2200uF
+  ( 1 N-000001 )
+  ( 2 GND )
+ )
+ ( /5E8F76FE C1 C2 0.1uF
+  ( 1 N-000001 )
+  ( 2 GND )
+ )
+ ( /5E8F7701 C1 C3 0.1uF
+  ( 1 VCC )
+  ( 2 GND )
+ )
+ ( /5E8F76E5 C1V5 C4 10uF
+  ( 1 VCC )
+  ( 2 GND )
+ )
+ ( /5E8F73E2 D3 D1 1n4007
+  ( 1 N-000002 )
+  ( 2 N-000001 )
+ )
+ ( /5E8F73E7 D3 D2 1n4007
+  ( 1 GND )
+  ( 2 N-000002 )
+ )
+ ( /5E8F73AB D3 D3 1n4007
+  ( 1 N-000006 )
+  ( 2 N-000001 )
+ )
+ ( /5E8F73E5 D3 D4 1n4007
+  ( 1 GND )
+  ( 2 N-000006 )
+ )
+ ( /5E8F7780 LED-5MM D5 LED
+  ( 1 N-000005 )
+  ( 2 GND )
+ )
+ ( /5E8F79AD bornier2 P1 CONN_2
+  ( 1 N-000006 )
+  ( 2 N-000002 )
+ )
+ ( /5E8F79B4 bornier2 P2 CONN_2
+  ( 1 VCC )
+  ( 2 GND )
+ )
+ ( /5E8F7787 R3 R1 220_ohm
+  ( 1 VCC )
+  ( 2 N-000004 )
+ )
+ ( /5E8F7795 R3 R2 1k
+  ( 1 VCC )
+  ( 2 N-000005 )
+ )
+ ( /5E8F789C RV2X4 RV1 5k
+  ( 1 GND )
+  ( 2 GND )
+  ( 3 N-000004 )
+ )
+ ( /5E8F774C TO220 U1 LM317
+  ( 1 N-000001 )
+  ( 2 N-000004 )
+  ( 3 VCC )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C1
+ CP*
+ SM*
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component C4
+ CP*
+ SM*
+$endlist
+$component D1
+ D?
+ S*
+$endlist
+$component D2
+ D?
+ S*
+$endlist
+$component D3
+ D?
+ S*
+$endlist
+$component D4
+ D?
+ S*
+$endlist
+$component D5
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$endfootprintlist
+}

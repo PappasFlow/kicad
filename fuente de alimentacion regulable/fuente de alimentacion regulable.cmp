@@ -1,0 +1,108 @@
+Cmp-Mod V01 Created by CvPCB (2011-07-08 BZR 3044)-stable date = 16/04/2020 16:31:34
+
+BeginCmp
+TimeStamp = /5E8F7698;
+Reference = C1;
+ValeurCmp = 2200uF;
+IdModule  = C2V8;
+EndCmp
+
+BeginCmp
+TimeStamp = /5E8F76FE;
+Reference = C2;
+ValeurCmp = 0.1uF;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /5E8F7701;
+Reference = C3;
+ValeurCmp = 0.1uF;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /5E8F76E5;
+Reference = C4;
+ValeurCmp = 10uF;
+IdModule  = C1V5;
+EndCmp
+
+BeginCmp
+TimeStamp = /5E8F73E2;
+Reference = D1;
+ValeurCmp = 1n4007;
+IdModule  = D3;
+EndCmp
+
+BeginCmp
+TimeStamp = /5E8F73E7;
+Reference = D2;
+ValeurCmp = 1n4007;
+IdModule  = D3;
+EndCmp
+
+BeginCmp
+TimeStamp = /5E8F73AB;
+Reference = D3;
+ValeurCmp = 1n4007;
+IdModule  = D3;
+EndCmp
+
+BeginCmp
+TimeStamp = /5E8F73E5;
+Reference = D4;
+ValeurCmp = 1n4007;
+IdModule  = D3;
+EndCmp
+
+BeginCmp
+TimeStamp = /5E8F7780;
+Reference = D5;
+ValeurCmp = LED;
+IdModule  = LED-5MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /5E8F79AD;
+Reference = P1;
+ValeurCmp = CONN_2;
+IdModule  = bornier2;
+EndCmp
+
+BeginCmp
+TimeStamp = /5E8F79B4;
+Reference = P2;
+ValeurCmp = CONN_2;
+IdModule  = bornier2;
+EndCmp
+
+BeginCmp
+TimeStamp = /5E8F7787;
+Reference = R1;
+ValeurCmp = 220_ohm;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /5E8F7795;
+Reference = R2;
+ValeurCmp = 1k;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /5E8F789C;
+Reference = RV1;
+ValeurCmp = 5k;
+IdModule  = RV2X4;
+EndCmp
+
+BeginCmp
+TimeStamp = /5E8F774C;
+Reference = U1;
+ValeurCmp = LM317;
+IdModule  = TO220;
+EndCmp
+
+EndListe

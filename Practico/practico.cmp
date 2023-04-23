@@ -1,0 +1,129 @@
+Cmp-Mod V01 Created by CvPCB (2011-07-08 BZR 3044)-stable date = 11/06/2020 17:50:19
+
+BeginCmp
+TimeStamp = /5EE2874B;
+Reference = C1;
+ValeurCmp = CP;
+IdModule  = C2V8;
+EndCmp
+
+BeginCmp
+TimeStamp = /5EE2874F;
+Reference = C2;
+ValeurCmp = CP;
+IdModule  = C2V8;
+EndCmp
+
+BeginCmp
+TimeStamp = /5EE28F6E;
+Reference = C3;
+ValeurCmp = C;
+IdModule  = C2V8;
+EndCmp
+
+BeginCmp
+TimeStamp = /5EE286E2;
+Reference = D1;
+ValeurCmp = DIODE;
+IdModule  = D3;
+EndCmp
+
+BeginCmp
+TimeStamp = /5EE28716;
+Reference = D2;
+ValeurCmp = DIODE;
+IdModule  = D3;
+EndCmp
+
+BeginCmp
+TimeStamp = /5EE28710;
+Reference = D3;
+ValeurCmp = DIODE;
+IdModule  = D3;
+EndCmp
+
+BeginCmp
+TimeStamp = /5EE2870C;
+Reference = D4;
+ValeurCmp = DIODE;
+IdModule  = D3;
+EndCmp
+
+BeginCmp
+TimeStamp = /5EE2871C;
+Reference = D5;
+ValeurCmp = DIODE;
+IdModule  = D3;
+EndCmp
+
+BeginCmp
+TimeStamp = /5EE28722;
+Reference = D6;
+ValeurCmp = ZENER;
+IdModule  = D3;
+EndCmp
+
+BeginCmp
+TimeStamp = /5EE288A4;
+Reference = P1;
+ValeurCmp = CONN_2;
+IdModule  = bornier2;
+EndCmp
+
+BeginCmp
+TimeStamp = /5EE288A1;
+Reference = P2;
+ValeurCmp = CONN_2;
+IdModule  = bornier2;
+EndCmp
+
+BeginCmp
+TimeStamp = /5EE287F6;
+Reference = Q1;
+ValeurCmp = NPN;
+IdModule  = TO92;
+EndCmp
+
+BeginCmp
+TimeStamp = /5EE28806;
+Reference = R1;
+ValeurCmp = R;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /5EE2880E;
+Reference = R2;
+ValeurCmp = R;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /5EE2880B;
+Reference = R3;
+ValeurCmp = R;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /5EE28788;
+Reference = T1;
+ValeurCmp = TRANSFO;
+IdModule  = TRANSF-MICRO;
+EndCmp
+
+BeginCmp
+TimeStamp = /5EE28825;
+Reference = U1;
+ValeurCmp = PHTRANS;
+IdModule  = DIP-6__300;
+EndCmp
+
+BeginCmp
+TimeStamp = /5EE28836;
+Reference = U2;
+ValeurCmp = ICL7660;
+IdModule  = DIP-8__300;
+EndCmp
+
+EndListe

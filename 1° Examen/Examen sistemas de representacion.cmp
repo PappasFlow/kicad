@@ -1,0 +1,87 @@
+Cmp-Mod V01 Created by CvPCB (2011-07-08 BZR 3044)-stable date = 25/06/2020 16:04:38
+
+BeginCmp
+TimeStamp = /5EF4F191;
+Reference = C1;
+ValeurCmp = C;
+IdModule  = C2;
+EndCmp
+
+BeginCmp
+TimeStamp = /5EF4F12A;
+Reference = C2;
+ValeurCmp = C;
+IdModule  = C2;
+EndCmp
+
+BeginCmp
+TimeStamp = /5EF4F223;
+Reference = C3;
+ValeurCmp = CTRIM;
+IdModule  = SUPER_CAP;
+EndCmp
+
+BeginCmp
+TimeStamp = /5EF4F161;
+Reference = C4;
+ValeurCmp = C;
+IdModule  = C2;
+EndCmp
+
+BeginCmp
+TimeStamp = /5EF4F1FC;
+Reference = K1;
+ValeurCmp = XLR3;
+IdModule  = CVAR3X2;
+EndCmp
+
+BeginCmp
+TimeStamp = /5EF4F237;
+Reference = L1;
+ValeurCmp = INDUCTOR;
+IdModule  = CVAR3X2;
+EndCmp
+
+BeginCmp
+TimeStamp = /5EF4EC2F;
+Reference = P1;
+ValeurCmp = CONN_2;
+IdModule  = bornier2;
+EndCmp
+
+BeginCmp
+TimeStamp = /5EF4F152;
+Reference = Q1;
+ValeurCmp = NPN;
+IdModule  = TO39EBC;
+EndCmp
+
+BeginCmp
+TimeStamp = /5EF4F069;
+Reference = R1;
+ValeurCmp = R;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /5EF4F070;
+Reference = R2;
+ValeurCmp = R;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /5EF4F07C;
+Reference = R3;
+ValeurCmp = R;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /5EF4F084;
+Reference = R4;
+ValeurCmp = R;
+IdModule  = R3;
+EndCmp
+
+EndListe

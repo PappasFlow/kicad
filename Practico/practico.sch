@@ -1,0 +1,378 @@
+EESchema Schematic File Version 2  date 12/06/2020 20:53:12
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:practico-cache
+EELAYER 25  0
+EELAYER END
+$Descr A4 11700 8267
+encoding utf-8
+Sheet 1 1
+Title "Esquematico de prueba"
+Date "11 jun 2020"
+Rev ""
+Comp "Joaquin Pappano Meinardi 1R5 86730"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Connection ~ 4900 3150
+Wire Wire Line
+	5100 3150 4850 3150
+Wire Wire Line
+	4850 3150 4850 3800
+Wire Wire Line
+	4850 3800 5800 3800
+Wire Wire Line
+	5800 3800 5800 4650
+Wire Wire Line
+	5800 4650 5950 4650
+Wire Wire Line
+	5950 4650 5950 4900
+Connection ~ 6800 4550
+Wire Wire Line
+	6800 4550 5900 4550
+Wire Wire Line
+	5900 4550 5900 3850
+Wire Wire Line
+	8700 2850 8700 2250
+Wire Wire Line
+	3800 3600 3800 6100
+Connection ~ 8700 2250
+Connection ~ 9950 2600
+Wire Wire Line
+	9950 2600 10750 2600
+Wire Wire Line
+	10750 2600 10750 3550
+Wire Wire Line
+	10750 3550 9750 3550
+Wire Wire Line
+	9750 3550 9750 3900
+Connection ~ 9600 1800
+Wire Wire Line
+	9600 2250 9600 1800
+Wire Wire Line
+	9150 1800 9950 1800
+Wire Wire Line
+	9950 1800 9950 3100
+Wire Wire Line
+	9950 3100 10100 3100
+Wire Wire Line
+	8250 2200 8250 2250
+Wire Wire Line
+	8250 2250 9050 2250
+Wire Wire Line
+	9050 2250 9050 3300
+Wire Wire Line
+	4700 4500 4950 4500
+Wire Wire Line
+	4950 4500 4950 3950
+Wire Wire Line
+	4950 3950 5600 3950
+Wire Wire Line
+	5600 3950 5600 4250
+Wire Wire Line
+	7100 3000 7100 3050
+Wire Wire Line
+	7100 3050 6800 3050
+Wire Wire Line
+	7400 3200 7400 3700
+Wire Wire Line
+	7400 3700 6800 3700
+Wire Wire Line
+	6800 3700 6800 3950
+Wire Wire Line
+	9750 4300 9750 5650
+Wire Wire Line
+	9750 5650 6650 5650
+Wire Wire Line
+	4900 3150 4900 2600
+Connection ~ 4300 2900
+Wire Wire Line
+	3150 2900 4300 2900
+Wire Wire Line
+	3750 2500 3800 2500
+Wire Wire Line
+	3800 2500 3800 3200
+Connection ~ 5900 1800
+Connection ~ 4150 1800
+Wire Wire Line
+	4150 2100 4150 1800
+Wire Wire Line
+	3750 2100 3750 1800
+Wire Wire Line
+	3750 1800 7450 1800
+Wire Wire Line
+	4900 1800 4900 2100
+Connection ~ 4900 1800
+Wire Wire Line
+	4300 3200 4300 2500
+Wire Wire Line
+	4300 2500 4150 2500
+Wire Wire Line
+	3150 2700 3800 2700
+Connection ~ 3800 2700
+Wire Wire Line
+	4700 1800 4700 3900
+Connection ~ 4700 1800
+Wire Wire Line
+	6150 5650 5550 5650
+Wire Wire Line
+	5550 5650 5550 5350
+Wire Wire Line
+	3800 6100 6800 6100
+Wire Wire Line
+	6800 6100 6800 4450
+Wire Wire Line
+	6800 3350 7400 3350
+Connection ~ 7400 3350
+Wire Wire Line
+	7400 2800 7400 2200
+Wire Wire Line
+	7400 2200 7450 2200
+Wire Wire Line
+	5100 3350 4950 3350
+Wire Wire Line
+	4950 3350 4950 3650
+Wire Wire Line
+	4950 3650 5400 3650
+Wire Wire Line
+	4700 6100 4700 4300
+Connection ~ 4700 6100
+Connection ~ 4700 4500
+Wire Wire Line
+	9600 2650 9600 3300
+Connection ~ 9600 3300
+Wire Wire Line
+	8250 1800 8750 1800
+Wire Wire Line
+	9050 3300 10100 3300
+Wire Wire Line
+	4300 6100 4300 3600
+Connection ~ 4300 6100
+Wire Wire Line
+	5400 3650 5400 4250
+Wire Wire Line
+	5900 2550 5900 1800
+Wire Wire Line
+	4900 5600 4900 5500
+Wire Wire Line
+	4900 5500 5200 5500
+Wire Wire Line
+	5200 5500 5200 5350
+Wire Wire Line
+	5950 5300 5950 5450
+Wire Wire Line
+	5950 5450 6800 5450
+Connection ~ 6800 5450
+$Comp
+L C C3
+U 1 1 5EE28F6E
+P 5950 5100
+F 0 "C3" H 6000 5200 50  0000 L CNN
+F 1 "C" H 6000 5000 50  0000 L CNN
+	1    5950 5100
+	1    0    0    -1  
+$EndComp
+NoConn ~ 5200 4250
+NoConn ~ 5100 2950
+$Comp
+L CONN_2 P1
+U 1 1 5EE288A4
+P 2800 2800
+F 0 "P1" V 2750 2800 40  0000 C CNN
+F 1 "CONN_2" V 2850 2800 40  0000 C CNN
+	1    2800 2800
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_2 P2
+U 1 1 5EE288A1
+P 10450 3200
+F 0 "P2" V 10400 3200 40  0000 C CNN
+F 1 "CONN_2" V 10500 3200 40  0000 C CNN
+	1    10450 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDPWR #PWR01
+U 1 1 5EE28860
+P 8700 2850
+F 0 "#PWR01" H 8700 2900 40  0001 C CNN
+F 1 "GNDPWR" H 8700 2770 40  0000 C CNN
+	1    8700 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDPWR #PWR02
+U 1 1 5EE2885B
+P 4900 5600
+F 0 "#PWR02" H 4900 5650 40  0001 C CNN
+F 1 "GNDPWR" H 4900 5520 40  0000 C CNN
+	1    4900 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L ICL7660 U2
+U 1 1 5EE28836
+P 5950 3200
+F 0 "U2" H 6150 3600 70  0000 L CNN
+F 1 "ICL7660" H 6000 2750 70  0000 L CNN
+	1    5950 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L PHTRANS U1
+U 1 1 5EE28825
+P 5400 4800
+F 0 "U1" H 5350 5150 70  0000 C CNN
+F 1 "PHTRANS" H 5350 4450 70  0000 C CNN
+	1    5400 4800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R2
+U 1 1 5EE2880E
+P 6400 5650
+F 0 "R2" V 6480 5650 50  0000 C CNN
+F 1 "R" V 6400 5650 50  0000 C CNN
+	1    6400 5650
+	0    1    1    0   
+$EndComp
+$Comp
+L R R3
+U 1 1 5EE2880B
+P 6800 4200
+F 0 "R3" V 6880 4200 50  0000 C CNN
+F 1 "R" V 6800 4200 50  0000 C CNN
+	1    6800 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R1
+U 1 1 5EE28806
+P 4900 2350
+F 0 "R1" V 4980 2350 50  0000 C CNN
+F 1 "R" V 4900 2350 50  0000 C CNN
+	1    4900 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L NPN Q1
+U 1 1 5EE287F6
+P 7300 3000
+F 0 "Q1" H 7300 2850 50  0000 R CNN
+F 1 "NPN" H 7300 3150 50  0000 R CNN
+	1    7300 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L TRANSFO T1
+U 1 1 5EE28788
+P 7850 2000
+F 0 "T1" H 7850 2250 70  0000 C CNN
+F 1 "TRANSFO" H 7850 1700 70  0000 C CNN
+	1    7850 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP C2
+U 1 1 5EE2874F
+P 9600 2450
+F 0 "C2" H 9650 2550 50  0000 L CNN
+F 1 "CP" H 9650 2350 50  0000 L CNN
+	1    9600 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP C1
+U 1 1 5EE2874B
+P 4700 4100
+F 0 "C1" H 4750 4200 50  0000 L CNN
+F 1 "CP" H 4750 4000 50  0000 L CNN
+	1    4700 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L ZENER D6
+U 1 1 5EE28722
+P 9750 4100
+F 0 "D6" H 9750 4200 50  0000 C CNN
+F 1 "ZENER" H 9750 4000 40  0000 C CNN
+	1    9750 4100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L DIODE D5
+U 1 1 5EE2871C
+P 8950 1800
+F 0 "D5" H 8950 1900 40  0000 C CNN
+F 1 "DIODE" H 8950 1700 40  0000 C CNN
+	1    8950 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L DIODE D2
+U 1 1 5EE28716
+P 3800 3400
+F 0 "D2" H 3800 3500 40  0000 C CNN
+F 1 "DIODE" H 3800 3300 40  0000 C CNN
+	1    3800 3400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L DIODE D3
+U 1 1 5EE28710
+P 4150 2300
+F 0 "D3" H 4150 2400 40  0000 C CNN
+F 1 "DIODE" H 4150 2200 40  0000 C CNN
+	1    4150 2300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L DIODE D4
+U 1 1 5EE2870C
+P 4300 3400
+F 0 "D4" H 4300 3500 40  0000 C CNN
+F 1 "DIODE" H 4300 3300 40  0000 C CNN
+	1    4300 3400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L DIODE D1
+U 1 1 5EE286E2
+P 3750 2300
+F 0 "D1" H 3750 2400 40  0000 C CNN
+F 1 "DIODE" H 3750 2200 40  0000 C CNN
+	1    3750 2300
+	0    -1   -1   0   
+$EndComp
+$EndSCHEMATC
