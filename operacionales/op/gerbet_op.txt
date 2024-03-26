@@ -1,0 +1,11 @@
+Aviso: Corrección del ancho restringida. El valor de la corrección del ancho debe encontrarse en el rango de [0,000001 mm; 0,499999 mm] para las reglas de diseño actuales.
+Plotted to 'C:\Users\joaqu\OneDrive\Documents\kiCad\operacionales\op\op-B_Cu.gbr'.
+Plotted to 'C:\Users\joaqu\OneDrive\Documents\kiCad\operacionales\op\op-F_Paste.gbr'.
+Plotted to 'C:\Users\joaqu\OneDrive\Documents\kiCad\operacionales\op\op-B_Paste.gbr'.
+Plotted to 'C:\Users\joaqu\OneDrive\Documents\kiCad\operacionales\op\op-F_Silkscreen.gbr'.
+Plotted to 'C:\Users\joaqu\OneDrive\Documents\kiCad\operacionales\op\op-B_Silkscreen.gbr'.
+Plotted to 'C:\Users\joaqu\OneDrive\Documents\kiCad\operacionales\op\op-F_Mask.gbr'.
+Plotted to 'C:\Users\joaqu\OneDrive\Documents\kiCad\operacionales\op\op-B_Mask.gbr'.
+Plotted to 'C:\Users\joaqu\OneDrive\Documents\kiCad\operacionales\op\op-Edge_Cuts.gbr'.
+Archivo de trabajo Gerber 'C:\Users\joaqu\OneDrive\Documents\kiCad\operacionales\op\op-job.gbrjob' creado.
+Info: Listo.

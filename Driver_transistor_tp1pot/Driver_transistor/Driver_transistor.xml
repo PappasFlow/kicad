@@ -1,0 +1,854 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\joaqu\OneDrive\Documents\kiCad\Driver_transistor_tp1pot\Driver_transistor\Driver_transistor.kicad_sch</source>
+    <date>25/03/2024 11:59:31</date>
+    <tool>Eeschema 7.0.2</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Driver_transistor.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Driver_MOSFET_IGBT/" tstamps="/6929754e-424a-481e-b4f0-ed85c2c964a7/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Driver_MOSFET_IGBT.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>10nF</value>
+      <footprint>Capacitor_THT:CP_Radial_D8.0mm_P5.00mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Driver_transistor.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2d5a1863-747f-4598-8053-ab5e5b36dc6b</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>150pF</value>
+      <footprint>Capacitor_THT:CP_Radial_D8.0mm_P5.00mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Driver_transistor.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ff41d7a7-94c1-4710-88c9-0344db39b6bb</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Driver_transistor.kicad_sch"/>
+      <property name="ki_description" value="100V 0.15A standard switching diode, DO-35"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>baddd88b-c2bb-4523-beb6-e3add081c147</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Driver_transistor.kicad_sch"/>
+      <property name="ki_description" value="100V 0.15A standard switching diode, DO-35"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c5ab756c-ad22-4a26-bb2a-2a505d92b8eb</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Driver_transistor.kicad_sch"/>
+      <property name="ki_description" value="100V 0.15A standard switching diode, DO-35"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9519d01d-f613-404b-ab16-b2550531a12c</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Driver_transistor.kicad_sch"/>
+      <property name="ki_description" value="100V 0.15A standard switching diode, DO-35"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ce4a62d1-513c-4023-a5b7-d1d8ddb8cf62</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x01</value>
+      <footprint>Connector_PinHeader_2.00mm:PinHeader_1x01_P2.00mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Driver_transistor.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f327b723-2379-44ed-bf6b-721ad8a44324</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x03</value>
+      <footprint>Connector_Wire:SolderWire-0.25sqmm_1x03_P4.2mm_D0.65mm_OD1.7mm</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Driver_transistor.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>603e9024-12e2-4090-b936-36902cff6328</tstamps>
+    </comp>
+    <comp ref="JP1">
+      <value>Jumper</value>
+      <footprint>Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical</footprint>
+      <libsource lib="Jumper" part="Jumper_2_Bridged" description="Jumper, 2-pole, closed/bridged"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Driver_transistor.kicad_sch"/>
+      <property name="ki_description" value="Jumper, 2-pole, closed/bridged"/>
+      <property name="ki_keywords" value="Jumper SPST"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>117fcb2d-8002-4a4a-aa6f-9ff0344aa1fc</tstamps>
+    </comp>
+    <comp ref="JP2">
+      <value>Jumper</value>
+      <footprint>Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical</footprint>
+      <libsource lib="Jumper" part="Jumper_2_Bridged" description="Jumper, 2-pole, closed/bridged"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Driver_transistor.kicad_sch"/>
+      <property name="ki_description" value="Jumper, 2-pole, closed/bridged"/>
+      <property name="ki_keywords" value="Jumper SPST"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f6323552-fb82-464f-ba84-539e591ef588</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>BC557</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline_Wide</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/BC556BTA-D.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="BC557" description="0.1A Ic, 45V Vce, PNP Small Signal Transistor, TO-92"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Driver_transistor.kicad_sch"/>
+      <property name="ki_description" value="0.1A Ic, 45V Vce, PNP Small Signal Transistor, TO-92"/>
+      <property name="ki_keywords" value="PNP Transistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b712489c-0fce-4ff9-ae27-ae033b1ab3e5</tstamps>
+    </comp>
+    <comp ref="Q2">
+      <value>BC548</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline_Wide</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/BC550-D.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="BC548" description="0.1A Ic, 30V Vce, Small Signal NPN Transistor, TO-92"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Driver_transistor.kicad_sch"/>
+      <property name="ki_description" value="0.1A Ic, 30V Vce, Small Signal NPN Transistor, TO-92"/>
+      <property name="ki_keywords" value="NPN Transistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c9cc11c5-17ad-402d-a6bd-edc02d2b1431</tstamps>
+    </comp>
+    <comp ref="Q3">
+      <value>BC548</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline_Wide</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/BC550-D.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="BC548" description="0.1A Ic, 30V Vce, Small Signal NPN Transistor, TO-92"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Driver_transistor.kicad_sch"/>
+      <property name="ki_description" value="0.1A Ic, 30V Vce, Small Signal NPN Transistor, TO-92"/>
+      <property name="ki_keywords" value="NPN Transistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f09f3caa-795a-47b8-b3a6-bab2b15792c3</tstamps>
+    </comp>
+    <comp ref="Q4">
+      <value>BU208A</value>
+      <footprint>Package_TO_SOT_THT:TO-220-3_Vertical</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/BUT11A-D.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="BUT11" description="5A Ic, 400V Vce, Silicon Power NPN Transistors, TO-220"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Driver_transistor.kicad_sch"/>
+      <property name="ki_description" value="5A Ic, 400V Vce, Silicon Power NPN Transistors, TO-220"/>
+      <property name="ki_keywords" value="High Voltage Power NPN Transistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>33b1258d-53ab-4735-b5dd-e7eb38101f61</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>270</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Driver_transistor.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2ae2bb11-5392-42b5-8c8a-78080ea7c767</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Driver_transistor.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e83da4f7-9416-480a-92a0-9aedcdc69cdb</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>820</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Driver_transistor.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f31ae048-dbb9-4ad1-abf4-8745bc593d9c</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>150</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Driver_transistor.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fb6b19ca-7b5e-40ca-9312-0221fb58d77e</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>220</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Driver_transistor.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0acc087d-9ecc-4f09-a4fc-a05f5bb62b1e</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>100</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Driver_transistor.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>082daead-a522-462a-8514-5474b6c0da8c</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>120</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Driver_transistor.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7b5b50c0-1ca8-44c3-a7cf-aedd70f06c83</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>12 ohm 7w</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Driver_transistor.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a6471640-6fe6-45e5-9578-206f51ec8897</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_01x02</value>
+      <footprint>Connector_Wire:SolderWire-0.5sqmm_1x02_P4.6mm_D0.9mm_OD2.1mm</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="Driver_MOSFET_IGBT"/>
+      <property name="Sheetfile" value="Driver_MOSFET_IGBT.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/Driver_MOSFET_IGBT/" tstamps="/6929754e-424a-481e-b4f0-ed85c2c964a7/"/>
+      <tstamps>fa21529c-5001-4dce-b9e7-74fe49d1b400</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>Conn_01x02</value>
+      <footprint>Connector_Wire:SolderWire-0.5sqmm_1x02_P4.6mm_D0.9mm_OD2.1mm</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="Driver_MOSFET_IGBT"/>
+      <property name="Sheetfile" value="Driver_MOSFET_IGBT.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/Driver_MOSFET_IGBT/" tstamps="/6929754e-424a-481e-b4f0-ed85c2c964a7/"/>
+      <tstamps>0d76a923-6422-4471-80d4-d4144f436d4a</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>Conn_01x01</value>
+      <footprint>Connector_PinHeader_2.00mm:PinHeader_1x01_P2.00mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="Driver_MOSFET_IGBT"/>
+      <property name="Sheetfile" value="Driver_MOSFET_IGBT.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/Driver_MOSFET_IGBT/" tstamps="/6929754e-424a-481e-b4f0-ed85c2c964a7/"/>
+      <tstamps>325ae20b-005d-4573-b597-e4cb391c1754</tstamps>
+    </comp>
+    <comp ref="JP3">
+      <value>Jumper</value>
+      <footprint>Connector_PinHeader_2.00mm:PinHeader_1x03_P2.00mm_Vertical</footprint>
+      <libsource lib="Jumper" part="Jumper_3_Bridged12" description="Jumper, 3-pole, pins 1+2 closed/bridged"/>
+      <property name="Sheetname" value="Driver_MOSFET_IGBT"/>
+      <property name="Sheetfile" value="Driver_MOSFET_IGBT.kicad_sch"/>
+      <property name="ki_description" value="Jumper, 3-pole, pins 1+2 closed/bridged"/>
+      <property name="ki_keywords" value="Jumper SPDT"/>
+      <sheetpath names="/Driver_MOSFET_IGBT/" tstamps="/6929754e-424a-481e-b4f0-ed85c2c964a7/"/>
+      <tstamps>6858ec77-3f2f-4b77-b38c-d312c5305f54</tstamps>
+    </comp>
+    <comp ref="JP4">
+      <value>Jumper</value>
+      <footprint>Connector_PinHeader_2.00mm:PinHeader_1x03_P2.00mm_Vertical</footprint>
+      <libsource lib="Jumper" part="Jumper_3_Bridged12" description="Jumper, 3-pole, pins 1+2 closed/bridged"/>
+      <property name="Sheetname" value="Driver_MOSFET_IGBT"/>
+      <property name="Sheetfile" value="Driver_MOSFET_IGBT.kicad_sch"/>
+      <property name="ki_description" value="Jumper, 3-pole, pins 1+2 closed/bridged"/>
+      <property name="ki_keywords" value="Jumper SPDT"/>
+      <sheetpath names="/Driver_MOSFET_IGBT/" tstamps="/6929754e-424a-481e-b4f0-ed85c2c964a7/"/>
+      <tstamps>5385ec20-1e9b-4ccf-b190-29291fba34b8</tstamps>
+    </comp>
+    <comp ref="Q5">
+      <value>IRF830</value>
+      <footprint>Package_TO_SOT_THT:TO-220-3_Vertical</footprint>
+      <datasheet>http://www.vishay.com/docs/91054/91054.pdf</datasheet>
+      <libsource lib="Transistor_FET" part="IRF740" description="10A Id, 400V Vds, N-Channel Power MOSFET, 500mOhm Rds, TO-220AB"/>
+      <property name="Sheetname" value="Driver_MOSFET_IGBT"/>
+      <property name="Sheetfile" value="Driver_MOSFET_IGBT.kicad_sch"/>
+      <property name="ki_description" value="10A Id, 400V Vds, N-Channel Power MOSFET, 500mOhm Rds, TO-220AB"/>
+      <property name="ki_keywords" value="N Channel"/>
+      <sheetpath names="/Driver_MOSFET_IGBT/" tstamps="/6929754e-424a-481e-b4f0-ed85c2c964a7/"/>
+      <tstamps>4e592293-5c23-434e-a64f-9bae53dd2051</tstamps>
+    </comp>
+    <comp ref="Q6">
+      <value>IRF830</value>
+      <footprint>Package_TO_SOT_THT:TO-220-3_Vertical</footprint>
+      <datasheet>http://www.vishay.com/docs/91054/91054.pdf</datasheet>
+      <libsource lib="Transistor_FET" part="IRF740" description="10A Id, 400V Vds, N-Channel Power MOSFET, 500mOhm Rds, TO-220AB"/>
+      <property name="Sheetname" value="Driver_MOSFET_IGBT"/>
+      <property name="Sheetfile" value="Driver_MOSFET_IGBT.kicad_sch"/>
+      <property name="ki_description" value="10A Id, 400V Vds, N-Channel Power MOSFET, 500mOhm Rds, TO-220AB"/>
+      <property name="ki_keywords" value="N Channel"/>
+      <sheetpath names="/Driver_MOSFET_IGBT/" tstamps="/6929754e-424a-481e-b4f0-ed85c2c964a7/"/>
+      <tstamps>92b939f9-845a-4031-b05a-22beba9dc5e0</tstamps>
+    </comp>
+    <comp ref="Q7">
+      <value>IRG4BC30</value>
+      <footprint>Package_TO_SOT_THT:TO-247-3_Vertical</footprint>
+      <datasheet>http://www.irf.com/product-info/datasheets/data/irg4pf50w.pdf</datasheet>
+      <libsource lib="Transistor_IGBT" part="IRG4PF50W" description="28A, 900V, N-Channel IGBT"/>
+      <property name="Sheetname" value="Driver_MOSFET_IGBT"/>
+      <property name="Sheetfile" value="Driver_MOSFET_IGBT.kicad_sch"/>
+      <property name="ki_description" value="28A, 900V, N-Channel IGBT"/>
+      <property name="ki_keywords" value="N-Channel IGBT Power Transistor"/>
+      <sheetpath names="/Driver_MOSFET_IGBT/" tstamps="/6929754e-424a-481e-b4f0-ed85c2c964a7/"/>
+      <tstamps>c6fa04e9-8b55-4502-b5ce-519141de63e4</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Driver_MOSFET_IGBT"/>
+      <property name="Sheetfile" value="Driver_MOSFET_IGBT.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Driver_MOSFET_IGBT/" tstamps="/6929754e-424a-481e-b4f0-ed85c2c964a7/"/>
+      <tstamps>311c5cd9-f5ef-4e9e-b7c6-bef82674d9ae</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>100</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Driver_MOSFET_IGBT"/>
+      <property name="Sheetfile" value="Driver_MOSFET_IGBT.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Driver_MOSFET_IGBT/" tstamps="/6929754e-424a-481e-b4f0-ed85c2c964a7/"/>
+      <tstamps>b3d904ac-85bf-41da-89f4-34b2153e3161</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>10 ohm 5w</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Driver_MOSFET_IGBT"/>
+      <property name="Sheetfile" value="Driver_MOSFET_IGBT.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Driver_MOSFET_IGBT/" tstamps="/6929754e-424a-481e-b4f0-ed85c2c964a7/"/>
+      <tstamps>a9075ab9-b19b-4ca7-bfdb-a35b93847957</tstamps>
+    </comp>
+    <comp ref="T1">
+      <value>1:1</value>
+      <libsource lib="Device" part="Transformer_1P_1S" description="Transformer, single primary, single secondary"/>
+      <property name="Sheetname" value="Driver_MOSFET_IGBT"/>
+      <property name="Sheetfile" value="Driver_MOSFET_IGBT.kicad_sch"/>
+      <property name="ki_description" value="Transformer, single primary, single secondary"/>
+      <property name="ki_keywords" value="transformer coil magnet"/>
+      <sheetpath names="/Driver_MOSFET_IGBT/" tstamps="/6929754e-424a-481e-b4f0-ed85c2c964a7/"/>
+      <tstamps>1dcf6b08-7aa8-42aa-abe4-7a3f8389fae1</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector_Generic" part="Conn_01x01">
+      <description>Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x01</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x02">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x03">
+      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Transformer_1P_1S">
+      <description>Transformer, single primary, single secondary</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">T</field>
+        <field name="Value">Transformer_1P_1S</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="AA" type="passive"/>
+        <pin num="2" name="AB" type="passive"/>
+        <pin num="3" name="SA" type="passive"/>
+        <pin num="4" name="SB" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="1N4148">
+      <description>100V 0.15A standard switching diode, DO-35</description>
+      <docs>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</docs>
+      <footprints>
+        <fp>D*DO?35*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1N4148</field>
+        <field name="Footprint">Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</field>
+        <field name="Datasheet">https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</field>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jumper" part="Jumper_2_Bridged">
+      <description>Jumper, 2-pole, closed/bridged</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Jumper*</fp>
+        <fp>TestPoint*2Pads*</fp>
+        <fp>TestPoint*Bridge*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">Jumper_2_Bridged</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jumper" part="Jumper_3_Bridged12">
+      <description>Jumper, 3-pole, pins 1+2 closed/bridged</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Jumper*</fp>
+        <fp>TestPoint*3Pads*</fp>
+        <fp>TestPoint*Bridge*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">Jumper_3_Bridged12</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="C" type="passive"/>
+        <pin num="3" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_BJT" part="BC548">
+      <description>0.1A Ic, 30V Vce, Small Signal NPN Transistor, TO-92</description>
+      <docs>https://www.onsemi.com/pub/Collateral/BC550-D.pdf</docs>
+      <footprints>
+        <fp>TO?92*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BC548</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-92_Inline</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/BC550-D.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="C" type="passive"/>
+        <pin num="2" name="B" type="input"/>
+        <pin num="3" name="E" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_BJT" part="BC557">
+      <description>0.1A Ic, 45V Vce, PNP Small Signal Transistor, TO-92</description>
+      <docs>https://www.onsemi.com/pub/Collateral/BC556BTA-D.pdf</docs>
+      <footprints>
+        <fp>TO?92*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BC557</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-92_Inline</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/BC556BTA-D.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="C" type="passive"/>
+        <pin num="2" name="B" type="input"/>
+        <pin num="3" name="E" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_BJT" part="BUT11">
+      <description>5A Ic, 400V Vce, Silicon Power NPN Transistors, TO-220</description>
+      <docs>https://www.onsemi.com/pub/Collateral/BUT11A-D.pdf</docs>
+      <footprints>
+        <fp>TO?220*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BUT11</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-220-3_Vertical</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/BUT11A-D.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="C" type="passive"/>
+        <pin num="3" name="E" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_FET" part="IRF740">
+      <description>10A Id, 400V Vds, N-Channel Power MOSFET, 500mOhm Rds, TO-220AB</description>
+      <docs>http://www.vishay.com/docs/91054/91054.pdf</docs>
+      <footprints>
+        <fp>TO?220*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">IRF740</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-220-3_Vertical</field>
+        <field name="Datasheet">http://www.vishay.com/docs/91054/91054.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="D" type="passive"/>
+        <pin num="3" name="S" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_IGBT" part="IRG4PF50W">
+      <description>28A, 900V, N-Channel IGBT</description>
+      <docs>http://www.irf.com/product-info/datasheets/data/irg4pf50w.pdf</docs>
+      <footprints>
+        <fp>TO?247*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">IRG4PF50W</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-247-3_Vertical</field>
+        <field name="Datasheet">http://www.irf.com/product-info/datasheets/data/irg4pf50w.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="C" type="passive"/>
+        <pin num="3" name="E" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector_Generic">
+      <uri>D:\Archivos de Programa 2\Kicad_7.0\share\kicad\symbols\/Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>D:\Archivos de Programa 2\Kicad_7.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Diode">
+      <uri>D:\Archivos de Programa 2\Kicad_7.0\share\kicad\symbols\/Diode.kicad_sym</uri>
+    </library>
+    <library logical="Jumper">
+      <uri>D:\Archivos de Programa 2\Kicad_7.0\share\kicad\symbols\/Jumper.kicad_sym</uri>
+    </library>
+    <library logical="Transistor_BJT">
+      <uri>D:\Archivos de Programa 2\Kicad_7.0\share\kicad\symbols\/Transistor_BJT.kicad_sym</uri>
+    </library>
+    <library logical="Transistor_FET">
+      <uri>D:\Archivos de Programa 2\Kicad_7.0\share\kicad\symbols\/Transistor_FET.kicad_sym</uri>
+    </library>
+    <library logical="Transistor_IGBT">
+      <uri>D:\Archivos de Programa 2\Kicad_7.0\share\kicad\symbols\/Transistor_IGBT.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+12V">
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+    </net>
+    <net code="2" name="-12V">
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="Q3" pin="3" pinfunction="E" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+    </net>
+    <net code="3" name="GND">
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="E" pintype="passive"/>
+      <node ref="Q4" pin="3" pinfunction="E" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+    </net>
+    <net code="4" name="GND1">
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="Q5" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+    </net>
+    <net code="5" name="GND2">
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="Q6" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="Q7" pin="3" pinfunction="E" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="T1" pin="3" pinfunction="SA" pintype="passive"/>
+    </net>
+    <net code="6" name="Net-(C1-Pad2)">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="7" name="Net-(D1-A)">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="B" pintype="input"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="8" name="Net-(D2-A)">
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="Q2" pin="3" pinfunction="E" pintype="passive"/>
+      <node ref="Q3" pin="1" pinfunction="C" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+    </net>
+    <net code="9" name="Net-(D2-K)">
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="JP1" pin="1" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="10" name="Net-(D3-K)">
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="JP2" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="Q4" pin="1" pinfunction="B" pintype="input"/>
+    </net>
+    <net code="11" name="Net-(D4-A)">
+      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="JP2" pin="1" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="12" name="Net-(JP1-B)">
+      <node ref="JP1" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="Q4" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+    </net>
+    <net code="13" name="Net-(JP3-A)">
+      <node ref="JP3" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="Q6" pin="1" pinfunction="G" pintype="input"/>
+    </net>
+    <net code="14" name="Net-(JP3-B)">
+      <node ref="JP3" pin="3" pinfunction="B" pintype="passive"/>
+      <node ref="Q7" pin="1" pinfunction="G" pintype="input"/>
+    </net>
+    <net code="15" name="Net-(JP3-C)">
+      <node ref="JP3" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="T1" pin="4" pinfunction="SB" pintype="passive"/>
+    </net>
+    <net code="16" name="Net-(JP4-A)">
+      <node ref="JP4" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="Q7" pin="2" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="17" name="Net-(JP4-B)">
+      <node ref="JP4" pin="3" pinfunction="B" pintype="passive"/>
+      <node ref="Q6" pin="2" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="18" name="Net-(JP4-C)">
+      <node ref="JP4" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+    </net>
+    <net code="19" name="Net-(Q1-C)">
+      <node ref="Q1" pin="1" pinfunction="C" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+    </net>
+    <net code="20" name="Net-(Q2-B)">
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="Q2" pin="2" pinfunction="B" pintype="input"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+    </net>
+    <net code="21" name="Net-(Q2-C)">
+      <node ref="Q2" pin="1" pinfunction="C" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+    </net>
+    <net code="22" name="Net-(Q3-B)">
+      <node ref="Q3" pin="2" pinfunction="B" pintype="input"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+    </net>
+    <net code="23" name="Net-(Q5-D)">
+      <node ref="Q5" pin="2" pinfunction="D" pintype="passive"/>
+      <node ref="T1" pin="2" pinfunction="AB" pintype="passive"/>
+    </net>
+    <net code="24" name="VCC">
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="T1" pin="1" pinfunction="AA" pintype="passive"/>
+    </net>
+    <net code="25" name="VDD">
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+    </net>
+    <net code="26" name="pwm">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+    </net>
+    <net code="27" name="pwm1">
+      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="Q5" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+    </net>
+  </nets>
+</export>
