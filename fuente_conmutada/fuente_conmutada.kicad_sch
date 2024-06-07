@@ -1,0 +1,105 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid ea49c21e-f169-43d4-aeb6-478b59f13c59)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 96.52 124.46) (size 46.99 31.75) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 48bdaea1-a679-4613-9073-8ffb2b3bc0e4)
+    (property "Sheetname" "rectificador_entrada" (at 96.52 123.7484 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "rectificador_entrada.kicad_sch" (at 96.52 156.7946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "fuente_conmutada"
+        (path "/ea49c21e-f169-43d4-aeb6-478b59f13c59" (page "4"))
+      )
+    )
+  )
+
+  (sheet (at 213.36 124.46) (size 48.26 31.75) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 5275eb23-ead0-41a6-ad30-16f3b7375232)
+    (property "Sheetname" "pwm" (at 213.36 123.7484 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "pwm.kicad_sch" (at 213.36 156.7946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (property "Campo2" "" (at 213.36 124.46 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "fuente_conmutada"
+        (path "/ea49c21e-f169-43d4-aeb6-478b59f13c59" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 153.67 124.46) (size 49.53 31.75) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 83fe62b2-f5a2-4b35-863d-7486a6323ffd)
+    (property "Sheetname" "rectificador_12v" (at 153.67 123.7484 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "rectificador_12v.kicad_sch" (at 153.67 156.7946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "fuente_conmutada"
+        (path "/ea49c21e-f169-43d4-aeb6-478b59f13c59" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 213.36 77.47) (size 48.26 31.75) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 8b55eb90-c253-4433-b3cf-8239265c073b)
+    (property "Sheetname" "trafo" (at 213.36 76.7584 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "trafo.kicad_sch" (at 213.36 109.8046 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (property "Campo2" "" (at 213.36 77.47 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "fuente_conmutada"
+        (path "/ea49c21e-f169-43d4-aeb6-478b59f13c59" (page "6"))
+      )
+    )
+  )
+
+  (sheet (at 35.56 124.46) (size 48.26 33.02) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid c8ee19b0-8cff-4830-b053-caaaff7dfdd3)
+    (property "Sheetname" "drirver" (at 35.56 123.7484 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "driver.kicad_sch" (at 35.56 158.0646 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "fuente_conmutada"
+        (path "/ea49c21e-f169-43d4-aeb6-478b59f13c59" (page "5"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)

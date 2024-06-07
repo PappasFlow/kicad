@@ -483,12 +483,12 @@
           (name "B" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 2.54 -5.08 90) (length 2.54)
-          (name "E" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
         (pin passive line (at 2.54 5.08 270) (length 2.54)
           (name "C" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 2.54 -5.08 90) (length 2.54)
+          (name "E" (effects (font (size 1.27 1.27))))
           (number "3" (effects (font (size 1.27 1.27))))
         )
       )
@@ -1034,8 +1034,8 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (pin "1" (uuid 8442b16d-d6ff-495f-9be9-321bfa9938ef))
-    (pin "2" (uuid 2fbf2b57-3ba1-47fa-9a88-8e2a691f9ed7))
     (pin "3" (uuid c7ee5872-97a3-492e-80c8-572159e08e45))
+    (pin "2" (uuid 2fbf2b57-3ba1-47fa-9a88-8e2a691f9ed7))
     (instances
       (project "Oscilador_Hartley"
         (path "/cbde9cb5-852b-49ce-82ca-c14c9abbc890"
